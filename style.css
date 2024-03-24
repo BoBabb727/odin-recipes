@@ -1,18 +1,49 @@
+    /* * {
+        outline: 2px goldenrod solid;
+    } */
+
 body {
     background-color: darkcyan;
+    align-content: center;
+    justify-content: center;
+}
+
+#menuicon {
+    background-image: url(./images/menuicon.svg);
+    height: 30px;
+    width: 30px;
+    border-style: none;
+     
 }
 
 h1 {
     font-size: 50px;
     text-align: center;
+    color: goldenrod;
+    font-family: fantasy;
 }
 img {
     border-radius: 30%;
     margin: 6px;
+    align-self: center;
+    justify-self: center;
+}
+
+.pagelink {
+    height: auto;
+    display: grid;
+    width: 30%;
+    justify-content: center;
+    align-content: center;
+
 }
 
 .imgContainer {
-    background-color: rgb(26, 186, 226);
+    background-color: darkcyan;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 5%;
 }
 
 a {
@@ -21,11 +52,26 @@ a {
     border: 6px;
     padding: 6px;
     margin: 6px;
+    text-wrap: wrap;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
     font-family: Arial, Helvetica, sans-serif; 
     text-decoration: none;
     color: darkgoldenrod;
-    background-color: blue;
+    /* background-color: blue; */
     border-radius: 30%;
 }
 
 
+footer a {
+    font-size: 6px;
+    text-decoration: none;
+    padding: 0;
+    margin: 1px;
+}
+
+footer {
+    font-size: 6px;
+
+}   
